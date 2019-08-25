@@ -1,0 +1,35 @@
+/* Jody's Personal Styling for Simple Chat Bot*/
+
+#chatbox {
+    border: 2px solid black;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    font-size: 16px;
+}
+
+#chatbox div {
+    border-radius: 16px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 250px;
+    padding: 8px;
+}
+
+.userMessage {
+    background-color: #0d81e0;
+    color: #ffffff;
+    margin: 4px 4px 4px auto;
+}
+
+.botMessage {
+    width: fit-content;
+    background-color: #f1f0f0;
+    margin: 4px;
+}
+
+.chatimage {
+    width: 230px;
+}
+
+

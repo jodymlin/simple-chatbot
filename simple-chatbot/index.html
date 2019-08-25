@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Basic Chat Bot</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+		@import 'ui/css/style.css';
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	console.log("index hello world")
+	</script>
+
+</head>
+
+<body ontouchstart=""><!-- ontouchstart="" enables low-delay CSS transitions. -->
+
+	<header>
+		<button class="back" onclick="history.back()">
+			<img src="ui/images/arrow-left.svg" />
+		</button>
+
+		<img class="logotype" src="ui/images/rick.png" alt="Evothings" />
+	</header>
+
+	<h1>Rick Chat Bot</h1>
+	<p>This is a <b>simple</b> chatbot.</p>
+	<div id="chatbox">
+		<!--Text will go here-->
+	</div>
+	
+	<input type="text" id="message" name="message">
+	<button class="blue" onclick="chat()">Send</button> 
+
+	<script src="cordova.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/ui/ui.js"></script>
+	<script src="./chatbot.js"></script>
+	<!-- TODO: Add libraries that you need -->
+
+</body>
+
+</html>

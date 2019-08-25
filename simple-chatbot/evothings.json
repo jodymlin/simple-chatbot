@@ -1,0 +1,18 @@
+{
+  "name": "simple_chatbot",
+  "version": "1.0.0",
+  "title": "Rick Chat Bot",
+  "description": "A simple chatbot.",
+  "tags": [],
+  "libraries": [],
+  "plugins": [],
+  "index-file": "index.html",
+  "uuid": "d71d32e5-a243-4d7f-a751-2e1b4848ab2b",
+  "icon": "app-icon.png",
+  "doc-url": "http://evothings.com/2.2/doc/examples/template-basic-app.html",
+  "long-description": "A simple chatbot. ",
+  "cordova-id": "com.evothings.examples.templatebasicapp",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com"
+}
